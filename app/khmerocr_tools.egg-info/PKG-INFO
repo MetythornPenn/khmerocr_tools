@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: khmerocr-tools
+Version: 0.0.1
+Summary: khmer ocr tools to wrap around abstract layout of opencv pillow which work with image such as rename images in a folder, resize images, remove only specific files extension ...
+Home-page: https://github.com/ArjanCodes/2023-package
+Author: metythorn_penn
+Author-email: metythorn@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# ID Generator
+A package used to generate random ids of variable lengths and types.
+
+## How to use
+_After installing the package use following import:_ <br>
+
+**from idgenerator import generate_password,generate_guid,generate_credit_card_number,
+    generate_pin_number,
+    generate_object_id**
+
+_Then use following commands:_
+
+**password = generate_password(length= 'your_desired_length')<br>**
+
+**guid = generate_guid()<br>**
+
+**credit_card_number = generate_credit_card_number(length='your_desired_length') <br>**
+
+**pin = generate_pin_number(length='your_desired_length') <br>**
+
+**objid = generate_object_id() <br>**
